@@ -21,13 +21,15 @@
             colors: {
               clifford: "#da373d",
             },
+            fontFamily: {
+              manrope: ["Manrope", "sans-serif"],
+            },
           },
         },
       };
     </script>
-
   </head>
-  <body class="">
+  <body class="font-manrope">
     <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
       <!-- header section -->
       <header class="lg:flex pt-10 mb-20">
@@ -43,7 +45,8 @@
             Your Taste Buds.
           </p>
           <button
-            class="bg-gradient-to-r from-orange-500 to-red-500 px-5 py-3 rounded-lg text-white font-bold">
+            class="bg-gradient-to-r from-orange-500 to-red-500 px-5 py-3 rounded-lg text-white font-bold"
+          >
             Explore More &#11008;
           </button>
         </div>
@@ -53,7 +56,8 @@
             <img class="w-full" src="images/banner.png" alt="" />
           </div>
           <div
-            class="absolute flex items-center bg-white shadow-lg px-2py-2 md:px-10 lg:py-4 rounded-lg top-28 md:top-80 md:left-32 lg:left-28">
+            class="absolute flex items-center bg-white shadow-lg px-2py-2 md:px-10 lg:py-4 rounded-lg top-28 md:top-80 md:left-32 lg:left-28"
+          >
             <div>
               <h3 class="text-2xl text-amber-500">&#11088;</h3>
             </div>
@@ -82,7 +86,8 @@
 
         <!-- grid card -->
         <div
-          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 text-center">
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 text-center"
+        >
           <!-- products card 01 -->
           <div class="rounded-lg shadow-md bg-gray-50 overflow-hidden">
             <img class="mx-auto pt-4" src="images/tea-1.png" alt="tea-1" />
@@ -179,7 +184,8 @@
       <!-- review section -->
       <section class="mb-24">
         <div
-          class="bg-gradient-to-r from-orange-500 to-red-500 rounded-xl grid grid-cols-1 md:grid-cols-2 text-white px-7 md:px-16">
+          class="bg-gradient-to-r from-orange-500 to-red-500 rounded-xl grid grid-cols-1 md:grid-cols-2 text-white px-7 md:px-16"
+        >
           <!-- text section -->
           <div class="flex justify-center items-center overflow-hidden">
             <div class="w-5/6">
@@ -271,7 +277,8 @@
           <div class="flex items-center gap-2">
             <h4>Ready to get started</h4>
             <button
-              class="bg-gradient-to-r from-orange-500 to-red-500 px-3 py-2 rounded-lg text-white font-bold">
+              class="bg-gradient-to-r from-orange-500 to-red-500 px-3 py-2 rounded-lg text-white font-bold"
+            >
               Get Started
             </button>
           </div>
@@ -294,9 +301,15 @@
           <div>
             <h3 class="font-semibold text-lg mb-3">Our Services</h3>
             <ul class="space-y-2">
-              <li><a class="hover:text-orange-500" href="#">Life Insurance</a></li>
-              <li><a class="hover:text-orange-500" href="#">Health Insurance</a></li>
-              <li><a class="hover:text-orange-500" href="#">Car Insurance</a></li>
+              <li>
+                <a class="hover:text-orange-500" href="#">Life Insurance</a>
+              </li>
+              <li>
+                <a class="hover:text-orange-500" href="#">Health Insurance</a>
+              </li>
+              <li>
+                <a class="hover:text-orange-500" href="#">Car Insurance</a>
+              </li>
               <li>
                 <a class="hover:text-orange-500" href="#">House Insurance</a>
               </li>
@@ -318,31 +331,34 @@
 
           <div>
             <h3>Subscribe to our newsletter</h3>
-            <div class="flex flex-col space-y-2 ">
+            <div class="flex flex-col space-y-2">
               <div class="flex flex-row space-x-2">
-                <input placeholder="Email Address" type="text" class="bg-transparent border-b-2 border-black w-3/6">
-                <div class="w-7 h-7 bg-orange-600 inline-flex rounded-full justify-center items-center">              
+                <input
+                  placeholder="Email Address"
+                  type="text"
+                  class="bg-transparent border-b-2 border-black w-3/6"
+                />
+                <div
+                  class="w-7 h-7 bg-orange-600 inline-flex rounded-full justify-center items-center"
+                >
                   <p class="text-white">></p>
                 </div>
               </div>
               <!-- logo icon -->
-               <div class="flex justify-center w-2/5 mb-2 mt-8">
-                <img src="images/fb.png" alt="">
-                <img src="images/google+.png" alt="">
-                <img src="images/twitter.png" alt="">
-               </div>
-
-
+              <div class="flex justify-center w-2/5 mb-2 mt-8">
+                <img src="images/fb.png" alt="" />
+                <img src="images/google+.png" alt="" />
+                <img src="images/twitter.png" alt="" />
+              </div>
             </div>
-
           </div>
-
         </div>
         <!-- last line -->
-         <div class="text-center pt-4 mt-4">
-          <p class="text-sm text-gray-600">© 2027 UIDesign.to - All rights reserved.</p>
-         </div>
-
+        <div class="text-center pt-4 mt-4">
+          <p class="text-sm text-gray-600">
+            © 2027 UIDesign.to - All rights reserved.
+          </p>
+        </div>
       </div>
     </footer>
   </body>
